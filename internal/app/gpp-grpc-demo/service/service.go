@@ -8,8 +8,8 @@ import (
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"
-	"github.com/Eunanibus/gpp-grpc-demo/internal/app/gpp-grpc-demo/db"
-	"github.com/Eunanibus/gpp-grpc-demo/proto/auth"
+	"github.com/eunanibus/gpp-grpc-demo/internal/app/gpp-grpc-demo/db"
+	"github.com/eunanibus/gpp-grpc-demo/proto/auth"
 )
 
 //go:generate mockgen -package=mocks -destination=mocks/db.go github.com/Eunanibus/users-service/internal/app/users-service/db Database

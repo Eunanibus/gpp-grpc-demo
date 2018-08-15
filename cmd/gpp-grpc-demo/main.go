@@ -4,9 +4,9 @@ import (
 	"net"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
-	"github.com/Eunanibus/gpp-grpc-demo/internal/app/gpp-grpc-demo/db"
-	"github.com/Eunanibus/gpp-grpc-demo/internal/app/gpp-grpc-demo/service"
-	"github.com/Eunanibus/gpp-grpc-demo/proto/auth"
+	"github.com/eunanibus/gpp-grpc-demo/internal/app/gpp-grpc-demo/db"
+	"github.com/eunanibus/gpp-grpc-demo/internal/app/gpp-grpc-demo/service"
+	"github.com/eunanibus/gpp-grpc-demo/proto/auth"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/Eunanibus/gpp-grpc-demo/proto/auth"
+	"github.com/eunanibus/gpp-grpc-demo/proto/auth"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 	"github.com/go-redis/redis"
